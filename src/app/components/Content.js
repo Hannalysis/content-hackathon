@@ -1,5 +1,6 @@
 import styles from "../styles/Content.module.css"
 
+
 export default function Content() {
   const steps = [
     "Define a decorator function",
@@ -22,15 +23,10 @@ export default function Content() {
         </div>
         <div className={styles.video}>
           <h3>Cat Collar Decorator</h3>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/placeholder"
-            title="TypeScript Decorators Tutorial"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <video width="500" controls>
+        <source src="/videos/Cat-ex-demo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+        </video>
         </div>
         <div className={styles.steps}>
           <h3>Method Example</h3>
@@ -39,15 +35,10 @@ export default function Content() {
         </div>
         <div className={styles.video}>
           <h3>Log Operator Decorator</h3>
-          <iframe
-            width="100%"
-            height="315"
-            src="https://www.youtube.com/embed/placeholder2"
-            title="Live Coding: TypeScript Decorators"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <video width="500" controls>
+        <source src="/videos/Calc-ex-demo.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+        </video>
         </div>
       </div>
     </section>
