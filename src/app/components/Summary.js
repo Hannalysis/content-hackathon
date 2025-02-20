@@ -6,8 +6,7 @@ export default function Summary() {
       <h2>Summary</h2>
       <p>
         Decorators in TypeScript are an experimental feature. They provide a powerful way to modify or enhance classes
-        and their members, but it is important to note that the implementation may change in future versions of
-        TypeScript or JavaScript.
+        and their members, but it is important to note that the implementation may change in future versions.
       </p>
     </section>
   )

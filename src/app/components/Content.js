@@ -2,12 +2,20 @@ import styles from "../styles/Content.module.css"
 
 
 export default function Content() {
-  const steps = [
-    "Define a decorator function",
-    "Use the @ symbol to apply the decorator",
-    "Decorate classes, methods, properties, or parameters",
-    "Compile with the --experimentalDecorators flag",
+  const catSteps = [
+    "First we are console logging our newly created instance of a Cat (Class); it's features (properties) are simply that fur is long, and it's eyes are green.",
+    "We want to create a new Cat with a collar on, so we'll need to use a decorator.",
+    "To ready the decorator, we use the '@' and the name only, as the decorator will execute at runtime: Therefore, we'll place @Collar above the Cat Class definition.",
+    "When we compile the typescript and run the script again, our newly created Cat now has a collar property.",
+    "In summary: Every instance of a Cat will now have a collar by default as the decorator resides on the class defintion.",
   ]
+
+  const calcSteps = [
+    "In this example, our add function from the Calculator class is decorated with the @log function, so when we run our script, a log will display for the function name and arguments, in addition to the result.",
+    "We want to be able to use that log feature on the subtraction function that is called, so we'll assign @log above the subtraction function, then compile and re-run.",
+    "In summary: As these decorators can sit above any method; this allows for flexibility without having to edit the original functions within the class itself."
+  ]
+
 
   return (
     <section className={styles.content}>
@@ -15,11 +23,11 @@ export default function Content() {
         <div className={styles.steps}>
           <h3>Class Example</h3>
           <h4>Decorator outside the Class</h4>
-          <ol>
-            {steps.map((step, index) => (
+          <ul>
+            {catSteps.map((step, index) => (
               <li key={index}>{step}</li>
             ))}
-          </ol>
+          </ul>
         </div>
         <div className={styles.video}>
           <h3>Cat Collar Decorator</h3>
@@ -31,7 +39,11 @@ export default function Content() {
         <div className={styles.steps}>
           <h3>Method Example</h3>
           <h4>Decorator inside the Class</h4>
-          <p>Decorators can be used to modify or enhance the behavior of classes and their members.</p>
+          <ul>
+            {calcSteps.map((step, index) => (
+              <li key={index}>{step}</li>
+            ))}
+          </ul>
         </div>
         <div className={styles.video}>
           <h3>Log Operator Decorator</h3>

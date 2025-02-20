@@ -20,8 +20,14 @@
     color: #0070f3;
   }
   
-  .steps ol {
-    padding-left: 1.5rem;
+  .steps ul {
+    padding-left: 8px;
+    list-style-type: none;
+  }
+
+  .steps ul ::before {
+    content: '\2192'; /* Unicode for a rightward arrow (→) */
+    margin-right: 10px; /* Add some space between the arrow and text */
   }
   
   .video iframe {
