@@ -30,6 +30,8 @@
 
   .steps ul li {
     margin-bottom: 1rem; /* Add space between each list item */
+    font-size: 18px;
+    margin-right: 8px;
   }
 
   .steps ul ::before {

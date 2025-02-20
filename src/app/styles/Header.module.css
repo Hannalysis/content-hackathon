@@ -9,3 +9,28 @@
   .header h1 {
     margin: 0;
   }
+
+  @keyframes textColorChange {
+    0% {
+      color: white;
+    }
+    20% {
+      color: lightblue;
+    }
+    40% {
+      color: skyblue;
+    }
+    60% {
+      color: lightcyan;
+    }
+    80% {
+      color: whitesmoke;
+    }
+    100% {
+      color: white;
+    }
+  }
+
+  .decorate {
+    animation: textColorChange 3s ease-in-out infinite;
+  }
