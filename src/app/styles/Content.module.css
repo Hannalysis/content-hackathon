@@ -23,6 +23,13 @@
   .steps ul {
     padding-left: 8px;
     list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .steps ul li {
+    margin-bottom: 1rem; /* Add space between each list item */
   }
 
   .steps ul ::before {
