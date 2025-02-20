@@ -1,0 +1,12 @@
+.intro {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .intro h2 {
+    color: #0070f3;
+  }
+  
+  .intro p {
+    line-height: 1.5;
+  }

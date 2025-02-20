@@ -1,0 +1,29 @@
+.content {
+    width: 100%;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .steps,
+  .video {
+    background-color: #1c1632; /* Adjusts all content boxes */
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .steps h3,
+  .video h3 {
+    color: #0070f3;
+  }
+  
+  .steps ol {
+    padding-left: 1.5rem;
+  }
+  
+  .video iframe {
+    max-width: 100%;
+  }

@@ -1,0 +1,15 @@
+.summary {
+    margin: 2rem 0;
+    text-align: center;
+    background-color: #1c1632;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .summary h2 {
+    color: #0070f3;
+  }
+  
+  .summary p {
+    line-height: 1.5;
+  }
