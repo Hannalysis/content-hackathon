@@ -12,19 +12,16 @@ export default function Content() {
     <section className={styles.content}>
       <div className={styles.grid}>
         <div className={styles.steps}>
-          <h3>Steps to Use Decorators</h3>
+          <h3>Class Example</h3>
+          <h4>Decorator outside the Class</h4>
           <ol>
             {steps.map((step, index) => (
               <li key={index}>{step}</li>
             ))}
           </ol>
         </div>
-        <div className={styles.steps}>
-          <h3>Additional Information</h3>
-          <p>Decorators can be used to modify or enhance the behavior of classes and their members.</p>
-        </div>
         <div className={styles.video}>
-          <h3>Video Tutorial</h3>
+          <h3>Cat Collar Decorator</h3>
           <iframe
             width="100%"
             height="315"
@@ -35,8 +32,13 @@ export default function Content() {
             allowFullScreen
           ></iframe>
         </div>
+        <div className={styles.steps}>
+          <h3>Method Example</h3>
+          <h4>Decorator inside the Class</h4>
+          <p>Decorators can be used to modify or enhance the behavior of classes and their members.</p>
+        </div>
         <div className={styles.video}>
-          <h3>Live Coding Example</h3>
+          <h3>Log Operator Decorator</h3>
           <iframe
             width="100%"
             height="315"
