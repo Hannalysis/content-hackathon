@@ -40,3 +40,15 @@
   .video iframe {
     max-width: 100%;
   }
+
+  .gridHeader {
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 4px;
+  }
+
+  .gridSubHeader {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 16px;
+  }

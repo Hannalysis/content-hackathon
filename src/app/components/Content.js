@@ -11,9 +11,10 @@ export default function Content() {
   ]
 
   const calcSteps = [
-    "In this example, our add function from the Calculator class is decorated with the @log function, so when we run our script, a log will display for the function name and arguments, in addition to the result.",
-    "We want to be able to use that log feature on the subtraction function that is called, so we'll assign @log above the subtraction function, then compile and re-run.",
-    "In summary: As these decorators can sit above any method; this allows for flexibility without having to edit the original functions within the class itself."
+    "In this example, our add method from the Calculator class is decorated with the @log function, so when we run our script, a log will display for the method name and arguments, in addition to the result.",
+    "We want to be able to use that log feature on the subtraction method that is called, so we'll assign @log above the subtraction method.",
+    "After compiling and re-running the script, observe we now get the log trigger for both methods we've decorated.",
+    "In summary: As these decorators can sit above any method; this allows for flexibility without having to edit the original methods within the class itself."
   ]
 
 
@@ -21,8 +22,8 @@ export default function Content() {
     <section className={styles.content}>
       <div className={styles.grid}>
         <div className={styles.steps}>
-          <h3>Class Example</h3>
-          <h4>Decorator outside the Class</h4>
+          <h3 className = {styles.gridHeader}>Class Example</h3>
+          <h4 className = {styles.gridSubHeader}>Decorator outside the Class</h4>
           <ul>
             {catSteps.map((step, index) => (
               <li key={index}>{step}</li>
@@ -30,15 +31,15 @@ export default function Content() {
           </ul>
         </div>
         <div className={styles.video}>
-          <h3>Cat Collar Decorator</h3>
+          <h3 className = {styles.gridHeader}>Cat Collar Decorator</h3>
           <video width="500" controls>
         <source src="/videos/Cat-ex-demo.mp4" type="video/mp4" />
         Your browser does not support the video tag.
         </video>
         </div>
         <div className={styles.steps}>
-          <h3>Method Example</h3>
-          <h4>Decorator inside the Class</h4>
+          <h3 className = {styles.gridHeader}>Method Example</h3>
+          <h4 className = {styles.gridSubHeader}>Decorator inside the Class</h4>
           <ul>
             {calcSteps.map((step, index) => (
               <li key={index}>{step}</li>
@@ -46,7 +47,7 @@ export default function Content() {
           </ul>
         </div>
         <div className={styles.video}>
-          <h3>Log Operator Decorator</h3>
+          <h3 className = {styles.gridHeader}>Calculator Operator Log Decorator</h3>
           <video width="500" controls>
         <source src="/videos/Calc-ex-demo.mp4" type="video/mp4" />
         Your browser does not support the video tag.

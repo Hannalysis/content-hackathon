@@ -1,0 +1,20 @@
+.subintro {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .subintro h2 {
+    color: #0070f3;
+    margin: none;
+    font-size: 22px;
+  }
+  
+  .subintro p {
+    line-height: 1.5;
+  }
+
+  .typicalList {
+    display: flex;
+    list-style: square;
+    gap: 32px;
+  }

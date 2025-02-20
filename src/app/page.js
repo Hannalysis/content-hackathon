@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Header from "../app/components/Header"
 import Intro from "../app/components/Intro"
+import Subintro from "../app/components/Subintro"
 import Content from "../app/components/Content"
 import Summary from "../app/components/Summary"
 import Footer from "../app/components/Footer"
@@ -18,6 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <Header />
         <Intro />
+        <Subintro />
         <Content />
         <Summary />
       </main>
