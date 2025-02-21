@@ -16,7 +16,7 @@ const Accordion = ({ items }) => {
   return (
     <div className="accordion">
       {items.map((item, index) => (
-        <div key={index} className="accordion-item">
+        <div key={index} className={styles.setupItems}>
           <h3
             className={styles.setup}
             onClick={() => toggleAccordion(index)}

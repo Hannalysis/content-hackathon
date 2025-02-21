@@ -12,7 +12,7 @@ const accordionItems = [
   {
     title: '- Click for setup instructions -',
     content:  (
-      <ul>
+      <ul className = {styles.setupList}>
         <li>npm init-y</li>
         <li>npm install typescript --save-dev</li>
         <li>npm install reflect-metadata --save</li>
