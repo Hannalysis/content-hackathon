@@ -3,7 +3,7 @@ import styles from "../styles/Content.module.css"
 
 export default function Content() {
   const catSteps = [
-    "First we are console logging our newly created instance of a Cat (Class); it's features (properties) are simply that fur is long, and it's eyes are green.",
+    "First we are console logging our newly created instance of a Cat (Class); it's features (properties) are simply that it's fur is long, and it's eyes are green.",
     "We want to create a new Cat with a collar on, so we'll need to use a decorator.",
     "To ready the decorator, we use the '@' and the name only, as the decorator will execute at runtime: Therefore, we'll place @Collar above the Cat Class definition.",
     "When we compile the typescript and run the script again, our newly created Cat now has a collar property.",
