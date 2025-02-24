@@ -8,6 +8,7 @@
 
   .setup:hover {
     color: lightblue;
+    cursor: pointer;
   }
 
   .setupItems{
