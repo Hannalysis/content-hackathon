@@ -1,6 +1,7 @@
 .subintro {
     text-align: center;
     margin-bottom: 1.5rem;
+    width: 100%;
   }
   
   .subintro h2 {
@@ -15,6 +16,14 @@
 
   .typicalList {
     display: flex;
+    justify-content: center;
     list-style: square;
     gap: 32px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .typicalList {
+      flex-flow: row wrap;
+      gap: 8px 32px;
+    }
   }

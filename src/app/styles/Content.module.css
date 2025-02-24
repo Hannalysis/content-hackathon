@@ -7,17 +7,37 @@
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
+
+  /* Layout for smaller screens (Mobile) */
+@media screen and (max-width: 768px) {
+  .grid {
+      grid-template-columns: 1fr; /* 1 column grid */
+      gap: 8px;
+  }
+}
   
   .steps,
   .video {
     background-color: #1c1632; /* Adjusts all content boxes */
     padding: 1rem;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  
+
   .steps h3,
   .video h3 {
     color: #0070f3;
+  }
+
+  @media screen and (max-width: 546px) {
+    .video video {
+      width: 375px;
+    }
+    .steps ul li {
+      font-size: 16px !important;
+    }
   }
   
   .steps ul {
@@ -39,10 +59,6 @@
     margin-right: 10px; /* Add some space between the arrow and text */
   }
   
-  .video iframe {
-    max-width: 100%;
-  }
-
   .gridHeader {
     font-size: larger;
     text-align: center;
