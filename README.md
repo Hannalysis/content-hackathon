@@ -47,7 +47,7 @@ At School of Code, we were tasked with creating & sharing an educational piece o
 - Added pointer cursor on hover for Setup to make it more obvious it's interactable.
 
 <h4>Mobile view</h4>
-  <img align = "center" src="/readme-images/TS-Decorator-Mobile.PNG" alt="TypeScript-Tutorial-0-Mobile">
+  <img align = "center" src="/readme-images/TS-Decorator-Mobile.png" alt="TypeScript-Tutorial-0-Mobile">
 
 ## Future Milestones
 
