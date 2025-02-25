@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align = "center">TypeScript Decorators</h1>
+<h2 align = "center">Tutorial 0</h2>
 
-## Getting Started
+<p align = "center"><b>Overview</b>: An initial overview for the usage of TypeScript Decorators when utilised in Classes or Methods </p>
 
-First, run the development server:
+  <img align = "center" src="/readme-images/TS-Decorator-Desktop.PNG" alt="TypeScript-Tutorial-0-Webpage">
+
+------------
+
+## Installation
+
+To run this via the repo - Inside your VScode terminal, enter the following:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+    npm i
+    npm run dev
 ```
+... and open the local http link provided.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Or you can simply follow the deployed link: https://content-hackathon.vercel.app/
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## The Brief
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+At School of Code, we were tasked with creating & sharing an educational piece of content, relating to a topic we'd been learning recently. I decided to pick up an advanced feature of TypeScript and present elements of it that are hopefully easy to digest. 
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+<h2>Documentation</h2>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h3><u>MVP</u></h3>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Two short video samples (no audio) of two bespoke TypeScript exercises (created personally).
+- Two lists to support the videos to walk the user through the steps presented from the video content.
+- Basic Header, Footer, Intro, Subintro and Summary sections.
+- Passable CSS.
+- Tech Stack: Next.js, deployed with Vercel.
 
-## Deploy on Vercel
+<h3><u>MS2</u></h3>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Setup section, where the list is viewable with an accordion-styled component on click.
+- Ensure hover interaction colour change on the Setup section.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+<h3><u>Update 1 - 2025-02-24</u></h3>
+
+- Mobile Compatibility: Multiple custom media queries added, including video and text size re-adjustments, and word wrapping to keep content viewable.
+
+- Added pointer cursor on hover for Setup to make it more obvious it's interactable.
+
+<h4>Mobile view</h4>
+  <img align = "center" src="/readme-images/TS-Decorator-Mobile.PNG" alt="TypeScript-Tutorial-0-Mobile">
+
+## Future Milestones
+
+<h3><u>MS3</u></h3>
+
+- Add content for Accessors, Parameters and Properties.
+- Add background music, and/or unobtrusive SFX.
+- Make a custom playback video player so redundant controls are not visible (ie sound).
+
+## Future Patches
+- Bespoke media query for Setup list so items or bullet points no longer clip on mobile.
+- Improved Styling.
+- Implement an image expander to showcase decorator code where it's not easily seen inside the video content.
+
+
+## Author
+
+Created by Hannahry  
+<i>aka Hannalysis</i>
