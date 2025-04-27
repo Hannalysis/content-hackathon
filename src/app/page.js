@@ -10,7 +10,7 @@ import styles from "../app/styles/Home.module.css"
 
 const accordionItems = [
   {
-    title: '- Click for setup instructions -',
+    title: '> Click here for setup instructions <',
     content:  (
       <ul className = {styles.setupList}>
         <li>npm init-y</li>

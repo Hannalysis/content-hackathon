@@ -4,6 +4,11 @@
     color: white;
     padding: 1rem;
     text-align: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-color: antiquewhite;
+    border-style: double;
+    border-width: 2px;
   }
   
   .header h1 {

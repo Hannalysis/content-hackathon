@@ -18,12 +18,15 @@
   
   .steps,
   .video {
-    background-color: #1c1632; /* Adjusts all content boxes */
+    background-color: rgb(10, 10, 59); /* Adjusts all content boxes */
     padding: 1rem;
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-color: antiquewhite;
+    border-style: double;
+    border-width: 1px;
   }
 
   .steps h3,
@@ -33,7 +36,7 @@
 
   @media screen and (max-width: 546px) {
     .video video {
-      width: 375px;
+      width: 375px; /*Make this responsive instead of hardcoded ie max width 100% with margin and 320px*/
     }
     .steps ul li {
       font-size: 16px !important;

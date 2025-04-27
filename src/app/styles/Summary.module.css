@@ -1,13 +1,18 @@
 .summary {
     margin: 2rem 0;
     text-align: center;
-    background-color: #1c1632;
+    background-color: #0070f3;
     padding: 1rem;
-    border-radius: 5px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: antiquewhite;
+    border-style: double;
+    border-width: 2px;
   }
   
   .summary h2 {
-    color: #0070f3;
+    color: #ffffff;
+    padding-bottom: 1rem;
   }
   
   .summary p {
